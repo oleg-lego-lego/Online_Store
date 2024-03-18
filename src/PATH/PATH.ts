@@ -4,4 +4,6 @@ export enum PATH {
     LOGIN = '/login',
     SETTINGS = '/settings',
     NOT_FOUND = '*',
+    PRODUCT = '/product',
+    REGISTRATION = '/registration',
 }
