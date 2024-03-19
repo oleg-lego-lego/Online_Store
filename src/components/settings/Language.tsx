@@ -1,4 +1,4 @@
-import React, {SyntheticEvent, useState} from 'react';
+import React from 'react';
 import Switch from "react-switch";
 import unitedKingdomIcon from "../../images/setting/unitedKingdom.svg";
 import RussianFlag from "../../images/setting/rus.svg";
@@ -6,32 +6,20 @@ import {useAppSelector} from "../../app/store";
 import {useTranslation} from "react-i18next";
 
 export const Language = () => {
-    const [themeValue1, setThemeValue1] = useState(false)
-
     const themeValue = useAppSelector(state => state.settings.theme)
 
-    const {t, i18n} = useTranslation();
-
+    const {t, i18n} = useTranslation('settings');
     const toggleLanguage = () => i18n.changeLanguage(i18n.language === 'ru' ? 'en' : 'ru' ? 'ru' : 'en');
 
-
-
-    const onChange = (checked: boolean, event: MouseEvent | SyntheticEvent<MouseEvent | KeyboardEvent, Event>) => {
-        setThemeValue1(checked)
-        toggleLanguage()
-    }
-
-    console.log(t)
     return (
-        <div className={`settings__item ${themeValue &&'dark'}`}>
-            <span style={{alignItems: 'center', display: 'flex'}}>Язык</span>
+        <div className={`settings__item ${themeValue && 'dark'}`}>
+            <span style={{alignItems: 'center', display: 'flex'}}>{t('Язык')}</span>
             <Switch
-                // onChange={onChange}
-                // checked={themeValue1}
+                id={'language'}
                 onChange={toggleLanguage}
                 checked={i18n.language === 'en'}
-                checkedHandleIcon={<Icon icon={unitedKingdomIcon} value={themeValue1}/>}
-                uncheckedHandleIcon={<Icon icon={RussianFlag} value={themeValue1}/>}
+                checkedHandleIcon={<Icon icon={unitedKingdomIcon} value={true}/>}
+                uncheckedHandleIcon={<Icon icon={RussianFlag} value={false}/>}
                 checkedIcon={false}
                 uncheckedIcon={false}
                 onColor={'#377dff'}
@@ -48,7 +36,7 @@ export const Language = () => {
 const Icon = ({icon, value}: { icon: string, value: boolean }) => {
     const valueSize = value ? '40px' : '40px'
 
-    const iconBloc: any = {
+    const iconBloc: IconBlocType = {
         display: 'inline-block',
         borderRadius: '50%',
         overflow: 'hidden',
@@ -56,7 +44,7 @@ const Icon = ({icon, value}: { icon: string, value: boolean }) => {
         height: '40px',
     };
 
-    const iconStyle: any = {
+    const iconStyle: IconStyleType = {
         width: '100%',
         height: '100%',
         objectFit: 'cover',
@@ -67,5 +55,19 @@ const Icon = ({icon, value}: { icon: string, value: boolean }) => {
             <img src={icon} alt="" width={valueSize} height={valueSize} style={iconStyle}/>
         </div>
     );
+};
+
+type IconBlocType = {
+    display: string
+    borderRadius: string
+    overflow: string
+    width: string
+    height: string
+}
+
+type IconStyleType = {
+    width: string
+    height: string
+    objectFit: 'cover'
 };
 
