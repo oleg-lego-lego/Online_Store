@@ -1,0 +1,12 @@
+{
+  "войти": "login",
+  "настройки": "settings",
+  "корзина": "cart",
+  "главная": "home",
+  "вы хотите выйти?": "do you want to go out?",
+  "Да": "Yes",
+  "Нет": "No",
+  "Выйти": "logout",
+  "Вы вышли из своего аккаунта": "You are logged out of your account",
+  "Пользователь": "User"
+}

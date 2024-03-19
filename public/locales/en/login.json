@@ -1,0 +1,23 @@
+{
+  "Вход": "Sign in",
+  "Еще не регистрировались ?": "Do not have an account ?",
+  "Зарегистрируйтесь": "Sign Up",
+  "Ваш Email": "Email",
+  "Ваш пароль": "Password",
+  "Запомнить меня": "Remember me",
+  "Забыли пароль ?": "Forgot password ?",
+  "Войти": "Sign in",
+  "Введите электронную почту": "Email is required",
+  "Введите правильный адрес почты": "Enter valid email please",
+  "Проверьте пароль": "Check your password",
+  "Проверьте почту или зарегистрируйтесь": "Check your email or register",
+  "Необходим пароль": "Password is required",
+  "Пароль должен быть более 8 символов": "Password must be more than 8 characters",
+  "Регистрация": "Sign up",
+  "Уже есть аккаунт?": "Already have an account ?",
+  "Этот адрес почты уже зарегистрирован": "this email address is already registered",
+  "Пароли не совпадают": "The passwords do not match",
+  "Повторите пароль": "Confirm password",
+  "Вы успешно зарегестрировали аккаунт": "You have successfully registered an account",
+  "Вы успешно вошли в аккаунт": "You have successfully logged in to your account"
+}
