@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa8e9fc0-1478-473c-a66c-89aa9375984f" name="Changes" comment="created component Home + add logic show components Card or LoaderCard" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="header" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dJjWd63yrHPG3WpF8GF6nknZnM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/oleg/Documents/React/online_store/public/locales/ru&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/locales/ru" />
+      <recent name="$PROJECT_DIR$/public/locales/en" />
+      <recent name="$PROJECT_DIR$/src/components/skekiton" />
+      <recent name="$PROJECT_DIR$/src/components/SnackBar" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/registration" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/utils/localStorage" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa8e9fc0-1478-473c-a66c-89aa9375984f" name="Changes" comment="" />
+      <created>1709733108183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709733108183</updated>
+      <workItem from="1709733109646" duration="4605000" />
+      <workItem from="1709791534432" duration="34864000" />
+      <workItem from="1710055089077" duration="23360000" />
+      <workItem from="1710139459103" duration="20910000" />
+      <workItem from="1710225487705" duration="22090000" />
+      <workItem from="1710313974333" duration="19020000" />
+      <workItem from="1710395695582" duration="24254000" />
+      <workItem from="1710428830562" duration="6972000" />
+      <workItem from="1710482364919" duration="19808000" />
+      <workItem from="1710509093485" duration="3452000" />
+      <workItem from="1710654194228" duration="2511000" />
+      <workItem from="1710656714217" duration="26331000" />
+      <workItem from="1710735282417" duration="2350000" />
+      <workItem from="1710737640744" duration="29577000" />
+      <workItem from="1710821748807" duration="25950000" />
+    </task>
+    <task id="LOCAL-00011" summary="add star for rating">
+      <created>1710276869722</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710276869722</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add flag rus">
+      <created>1710276903891</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710276903891</updated>
+    </task>
+    <task id="LOCAL-00013" summary="created store all app, &#10;add settings: settingsReducer, &#10;items: storeReducer">
+      <created>1710277033584</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710277033584</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactoring code Header.tsx">
+      <created>1710361808575</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710361808575</updated>
+    </task>
+    <task id="LOCAL-00015" summary="created settings page">
+      <created>1710361880745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710361880745</updated>
+    </task>
+    <task id="LOCAL-00016" summary="created store-reducer.ts for get items online store">
+      <created>1710361961625</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710361961625</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added words to the dictionary with translation">
+      <created>1710449219725</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710449219725</updated>
+    </task>
+    <task id="LOCAL-00018" summary="created pagination components">
+      <created>1710449264696</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710449264696</updated>
+    </task>
+    <task id="LOCAL-00019" summary="created a dictionary to translate the page product">
+      <created>1710515714020</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710515714020</updated>
+    </task>
+    <task id="LOCAL-00020" summary="created page ProductPage.tsx">
+      <created>1710515749870</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710515749870</updated>
+    </task>
+    <task id="LOCAL-00021" summary="created component Scroll for scroll on project">
+      <created>1710515807012</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710515807012</updated>
+    </task>
+    <task id="LOCAL-00022" summary="deleted file">
+      <created>1710515829654</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710515829654</updated>
+    </task>
+    <task id="LOCAL-00023" summary="created getLoginUser for data in localStorage">
+      <created>1710708755056</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710708755056</updated>
+    </task>
+    <task id="LOCAL-00024" summary="created getProductLS for data in localStorage">
+      <created>1710708771509</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710708771509</updated>
+    </task>
+    <task id="LOCAL-00025" summary="created login-reducer.ts">
+      <created>1710708802062</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710708802062</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added words for translation">
+      <created>1710787794003</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710787794003</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added words for translation">
+      <created>1710787805248</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710787805248</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added new PATH">
+      <created>1710787833609</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710787833609</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added ErrorSnackbar.tsx for show errors">
+      <created>1710787893128</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710787893128</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added LineLoading.tsx for show loading lines">
+      <created>1710787934388</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710787934388</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added LoaderCard.tsx for show skeleton">
+      <created>1710787983201</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710787983201</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added words for translation">
+      <created>1710853620063</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710853620063</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add page 404">
+      <created>1710853678497</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710853678497</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add dependencies in useEffect">
+      <created>1710853827337</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710853827337</updated>
+    </task>
+    <task id="LOCAL-00035" summary="add getCardProduct for show one product">
+      <created>1710853889284</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710853889284</updated>
+    </task>
+    <task id="LOCAL-00036" summary="deleted icons">
+      <created>1710853949295</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710853949295</updated>
+    </task>
+    <task id="LOCAL-00037" summary="add files in localStorage">
+      <created>1710854074640</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854074640</updated>
+    </task>
+    <task id="LOCAL-00038" summary="created files for loader skeleton">
+      <created>1710854247251</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854247251</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix css style">
+      <created>1710854302042</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854302042</updated>
+    </task>
+    <task id="LOCAL-00040" summary="fix App mistakes">
+      <created>1710854353944</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854353944</updated>
+    </task>
+    <task id="LOCAL-00041" summary="created snackbar for show mistakes or success">
+      <created>1710854606842</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854606842</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix code in i18n">
+      <created>1710854660813</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854660813</updated>
+    </task>
+    <task id="LOCAL-00043" summary="created icon components for nav">
+      <created>1710854720190</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854720190</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix mistakes in code + add Type">
+      <created>1710854765248</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854765248</updated>
+    </task>
+    <task id="LOCAL-00045" summary="created Card for show item in shop">
+      <created>1710854839195</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854839195</updated>
+    </task>
+    <task id="LOCAL-00046" summary="created ProductPage.tsx">
+      <created>1710854877942</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854877942</updated>
+    </task>
+    <task id="LOCAL-00047" summary="created logic for login and register user">
+      <created>1710854961464</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1710854961464</updated>
+    </task>
+    <task id="LOCAL-00048" summary="add &#10;dependencies">
+      <created>1710855050056</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855050056</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add reducers in store">
+      <created>1710855089977</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855089977</updated>
+    </task>
+    <task id="LOCAL-00050" summary="created components Product for show &#10;descriptions goods">
+      <created>1710855166237</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855166237</updated>
+    </task>
+    <task id="LOCAL-00051" summary="created NotFoundPage.tsx + add picture 404">
+      <created>1710855212115</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855212115</updated>
+    </task>
+    <task id="LOCAL-00052" summary="created pagination for products page">
+      <created>1710855255881</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855255881</updated>
+    </task>
+    <task id="LOCAL-00053" summary="add BrowserRouter from react-router-dom">
+      <created>1710855300531</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855300532</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix mistakes light or dark theme">
+      <created>1710855402593</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855402593</updated>
+    </task>
+    <task id="LOCAL-00055" summary="add logic in Header.tsx">
+      <created>1710855435224</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855435224</updated>
+    </task>
+    <task id="LOCAL-00056" summary="created reducer">
+      <created>1710855498051</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855498051</updated>
+    </task>
+    <task id="LOCAL-00057" summary="component for show picture">
+      <created>1710855520664</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855520664</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix: renamed components ThemeValue">
+      <created>1710855599892</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855599892</updated>
+    </task>
+    <task id="LOCAL-00059" summary="created component Home + add logic show components Card or LoaderCard">
+      <created>1710855667826</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855667826</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add getCardProduct for show one product" />
+    <MESSAGE value="deleted icons" />
+    <MESSAGE value="add files in localStorage" />
+    <MESSAGE value="created files for loader skeleton" />
+    <MESSAGE value="fix css style" />
+    <MESSAGE value="fix App mistakes" />
+    <MESSAGE value="created snackbar for show mistakes or success" />
+    <MESSAGE value="fix code in i18n" />
+    <MESSAGE value="created icon components for nav" />
+    <MESSAGE value="fix mistakes in code + add Type" />
+    <MESSAGE value="created Card for show item in shop" />
+    <MESSAGE value="created ProductPage.tsx" />
+    <MESSAGE value="created logic for login and register user" />
+    <MESSAGE value="add &#10;dependencies" />
+    <MESSAGE value="add reducers in store" />
+    <MESSAGE value="created components Product for show &#10;descriptions goods" />
+    <MESSAGE value="created NotFoundPage.tsx + add picture 404" />
+    <MESSAGE value="created pagination for products page" />
+    <MESSAGE value="add BrowserRouter from react-router-dom" />
+    <MESSAGE value="fix mistakes light or dark theme" />
+    <MESSAGE value="add logic in Header.tsx" />
+    <MESSAGE value="created reducer" />
+    <MESSAGE value="component for show picture" />
+    <MESSAGE value="fix: renamed components ThemeValue" />
+    <MESSAGE value="created component Home + add logic show components Card or LoaderCard" />
+    <option name="LAST_COMMIT_MESSAGE" value="created component Home + add logic show components Card or LoaderCard" />
+  </component>
+</project>
