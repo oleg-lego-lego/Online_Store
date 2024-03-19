@@ -26,8 +26,6 @@ export const LoaderCard = () => {
                     </div>
                 )
             })}
-
-
         </div>
     );
 };
