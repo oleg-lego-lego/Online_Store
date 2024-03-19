@@ -1,5 +1,5 @@
 import React from 'react';
-import {SelectionSwitch} from "./SelectionSwitch";
+import {ThemeValue} from "./ThemeValue";
 import {Language} from "./Language";
 import {useAppSelector} from "../../app/store";
 
@@ -9,7 +9,7 @@ export const Settings = () => {
 
     return (
         <section className={`settings__bloc ${themeValue && 'dark'}`}>
-            <SelectionSwitch/>
+            <ThemeValue/>
             <Language/>
         </section>
     );
