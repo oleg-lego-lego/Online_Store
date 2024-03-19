@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'https://dummyjson.com/products',
+    baseURL: 'https://dummyjson.com/products/',
 })
 
 export const storeApi = {
@@ -12,7 +12,12 @@ export const storeApi = {
                 limit: paginationRows
             }
         })
+    },
+
+    getCardProduct(id: string) {
+        return instance.get(id)
     }
+
 }
 
 
