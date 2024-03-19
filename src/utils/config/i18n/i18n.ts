@@ -11,8 +11,6 @@ i18n
     .init({
         fallbackLng: 'ru',
         debug: false,
-        // supportedLngs: ['en-GB', 'uk-UA'],
-        // ns: ['auth', 'dialogs', 'navbar', 'profile', 'settings', 'users'],
 
         interpolation: {
             escapeValue: false,
@@ -23,10 +21,5 @@ i18n
         },
     });
 
-// i18n.on('languageChanged', (lng) => {
-//     if (lng !== 'uk-UA' && lng !== 'en-GB') {
-//         i18n.changeLanguage('en-GB');
-//     }
-// });
 
 export default i18n;
