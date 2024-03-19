@@ -15,9 +15,8 @@ export const Scroll: FC<ScrollProps> = ({showBelow}) => {
     }
 
     const onPageScroll = () => {
-        document.documentElement.scrollTop > 0 ? setShow(true) : setShow(false)
+        document.documentElement.scrollTop > showBelow ? setShow(true) : setShow(false)
     }
-
 
     useEffect(() => {
         window.addEventListener("scroll", onPageScroll)
@@ -25,9 +24,9 @@ export const Scroll: FC<ScrollProps> = ({showBelow}) => {
         return () => {
             window.removeEventListener("scroll", onPageScroll)
         }
-    }, []);
+    }, [onPageScroll, setShow]);
 
-    const styles: Styles = {
+    const styles: StylesType = {
         iconButton: {
             zIndex: 2,
             position: 'fixed',
@@ -57,7 +56,7 @@ export const Scroll: FC<ScrollProps> = ({showBelow}) => {
     )
 };
 
-interface Styles {
+interface StylesType {
     iconButton: {
         zIndex: number;
         position: 'fixed';
