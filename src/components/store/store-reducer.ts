@@ -23,3 +23,4 @@ export type getStoreACType = ReturnType<typeof getStoreItemsAC>
 
 
 export type StoreActionType = getStoreACType
+
