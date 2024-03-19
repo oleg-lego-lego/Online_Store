@@ -17,5 +17,7 @@
   "Уже есть аккаунт?": "Already have an account ?",
   "Этот адрес почты уже зарегистрирован": "this email address is already registered",
   "Пароли не совпадают": "The passwords do not match",
-  "Повторите пароль": "Confirm password"
+  "Повторите пароль": "Confirm password",
+  "Вы успешно зарегестрировали аккаунт": "You have successfully registered an account",
+  "Вы успешно вошли в аккаунт": "You have successfully logged in to your account"
 }
