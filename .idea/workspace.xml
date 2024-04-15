@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa8e9fc0-1478-473c-a66c-89aa9375984f" name="Changes" comment="created component Home + add logic show components Card or LoaderCard" />
+    <list default="true" id="fa8e9fc0-1478-473c-a66c-89aa9375984f" name="Changes" comment="add files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product/showPicture.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product/showPicture.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/ProductPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/ProductPage.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,13 +23,10 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="header" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,7 +46,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/oleg/Documents/React/online_store/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -107,13 +108,13 @@
       <workItem from="1710735282417" duration="2350000" />
       <workItem from="1710737640744" duration="29577000" />
       <workItem from="1710821748807" duration="25950000" />
-    </task>
-    <task id="LOCAL-00011" summary="add star for rating">
-      <created>1710276869722</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1710276869722</updated>
+      <workItem from="1710855760078" duration="484000" />
+      <workItem from="1710856418656" duration="912000" />
+      <workItem from="1710922544360" duration="1184000" />
+      <workItem from="1713188310279" duration="468000" />
+      <workItem from="1713188784324" duration="132000" />
+      <workItem from="1713188919989" duration="555000" />
+      <workItem from="1713189479026" duration="690000" />
     </task>
     <task id="LOCAL-00012" summary="add flag rus">
       <created>1710276903891</created>
@@ -451,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710855667826</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add files">
+      <created>1710855883149</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1710855883149</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add getCardProduct for show one product" />
     <MESSAGE value="deleted icons" />
     <MESSAGE value="add files in localStorage" />
     <MESSAGE value="created files for loader skeleton" />
@@ -494,6 +501,7 @@
     <MESSAGE value="component for show picture" />
     <MESSAGE value="fix: renamed components ThemeValue" />
     <MESSAGE value="created component Home + add logic show components Card or LoaderCard" />
-    <option name="LAST_COMMIT_MESSAGE" value="created component Home + add logic show components Card or LoaderCard" />
+    <MESSAGE value="add files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files" />
   </component>
 </project>

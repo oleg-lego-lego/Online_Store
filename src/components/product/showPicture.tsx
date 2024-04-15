@@ -9,29 +9,30 @@ type ShowPictureType = {
 export const ShowPicture: FC<ShowPictureType> = ({item}) => {
     return (
         <Gallery>
-            <div>
-                <Item
-                    original={item[0]}
-                    thumbnail={item[0]}
-                    width="500"
-                    height="280"
-                >
+            {item && item.length > 0 &&
+                <div>
+                    <Item
+                        original={item[0]}
+                        thumbnail={item[0]}
+                        width="500"
+                        height="280"
+                    >
 
-                    {({ref, open}) => (
-                        <img
-                            width={'100%'}
-                            height={'54%'}
-                            ref={ref}
-                            onClick={open}
-                            src={item[0]}
-                            alt={'product'}
-                            className={'galleryBig__img'}
-                        />
-                    )}
-                </Item>
-            </div>
+                        {({ref, open}) => (
+                            <img
+                                width={'100%'}
+                                height={'54%'}
+                                ref={ref}
+                                onClick={open}
+                                src={item[0]}
+                                alt={'product'}
+                                className={'galleryBig__img'}
+                            />
+                        )}
+                    </Item>
+                </div>}
 
-            {item.map(el => {
+            {item && Array.isArray(item) && item.length > 0 && item.map(el => {
                 return (
                     <Item
                         key={el}
